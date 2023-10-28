@@ -64,6 +64,7 @@ namespace generatore_indirizzi
 
             if (somma <= 8) //CLASSE C
             {
+
                lst_tabella.Items.Add("Classe C");
                lst_tabella.Items.Add("192.168.0.0");
                lst_tabella.Items.Add($"255.255.255.{ Subnet(bitRiservatiSottoreti)}");
